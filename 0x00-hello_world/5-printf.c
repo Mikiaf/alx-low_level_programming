@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
-* printing  with proper grammar, but the outcome is a piece of art,with printf
-* use main function
-*and return 0
+* main - print the string in the function
+*
+* description - with main function
+* prints "with proper grammar, but the outcome is a piece of art,"
+* return: 0
 */
 int main(void)
 {
