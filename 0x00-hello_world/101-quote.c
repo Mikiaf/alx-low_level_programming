@@ -3,7 +3,7 @@
 * main - print the string in the puts function
 *
 * Description:using the main function
-* this program print and that piece of art is useful - Dora Korpar," 2015-10-19"
+* this program print and that piece of art is useful - Dora Korpar
 * Return: 0
 */
 int main(void)
