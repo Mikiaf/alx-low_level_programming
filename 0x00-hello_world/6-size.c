@@ -1,6 +1,13 @@
-include <stdio.h>
-
+#include <stdio.h>
+/**
+* main-print the string in the function
+*
+* Description:using the main function
+* this program print "f
+* Return: 0
+*/
 int main(void)
+{
 	int i;
 	long l;
 	char c;
@@ -17,3 +24,4 @@ int main(void)
 	printf("size of long long int:%lu%lu%lu.\n", (unsigned long)(sizeof(lli));
 	
 	return(0);
+}
