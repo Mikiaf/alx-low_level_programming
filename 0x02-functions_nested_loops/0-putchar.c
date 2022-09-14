@@ -1,13 +1,12 @@
+#include "main.h"
 #include <stdio.h>
 /**
-* main - print the string in the puts function
-*
-* Description:using the main function
-* this program print n
-* Return: 0
-*/
-int main(void)
+ * putchar - print _putchar
+ *
+ * Return:0
+ */
+int putchar(void)
 {
-	printf("_putchar\n");
+	print ("_putchar");
 	return (0);
 }
