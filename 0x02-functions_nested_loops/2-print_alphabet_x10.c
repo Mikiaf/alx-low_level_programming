@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - pirnt the alphabet x10
+ *print_alphabet_x10 - pirnt the alphabet x10
  *
  * Return:0
  */
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(i);
 		}
-		_putchar('\n');
+
 	}
 	_putchar('\n');
 }
