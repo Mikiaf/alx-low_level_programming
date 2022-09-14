@@ -7,13 +7,18 @@
 int main(void)
 {
 	int r;
+	int m;
 
-	r = _islower('H');
-	_putchar(r + '0');
-	r = _islower('o');
-	_putchar(r + '0');
-	r = _islower(108);
-	_putchar(r + '0');
+	for (r = 'a'; r <= 'z'; r++)
+	{
+		m = _islower(r);
+	}
+	for (r = 97; r <= 122; r++)
+	{
+		m = _islower(r);
+	}
+	_putchar(m);
 	_putchar('\n');
 	return (0);
 }
+
