@@ -7,8 +7,11 @@
 int main(void)
 {
 	char c;
+	char r;
 
-	c = _isupper('A');
-	_putchar(c);
+	c = 'A';
+	r = _isupper(c);
+	_putchar(c + ':');
+	_putchar(r);
 	return (0);
 }
