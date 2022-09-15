@@ -7,7 +7,7 @@
 int main(void)
 {
 	char c;
-	char r;
+	int r;
 
 	c = '0';
 	r = _isdigit(c);
