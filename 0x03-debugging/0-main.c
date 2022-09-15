@@ -2,8 +2,6 @@
 
 /**
  * main - cheak positive and negative
- * i: is number for the main function
- *
  * Return: 0
  */
 
