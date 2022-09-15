@@ -6,19 +6,7 @@
  */
 int main(void)
 {
-	int r;
-	int m;
-
-	for (r = 'a'; r <= 'z'; r++)
-	{
-		m = _islower(r);
-	}
-	for (r = 97; r <= 122; r++)
-	{
-		m = _islower(r);
-	}
-	_putchar(m);
-	_putchar('\n');
+	_islower();
 	return (0);
 }
 
