@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * main - calls function
- *
- *Return:0
- */
+* main - check the code
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 	char c;
-	int r;
 
-	c = '0';
-	r = _isdigit(c);
-	_putchar(c + ':');
-	_putchar(r);
-	return (0);
+	c = 'a';
+	_putchar(c);
+	_putchar(':');
+	_putchar(_isdigit(c));
+	_putchar('\n');
+	return(0);
 }
