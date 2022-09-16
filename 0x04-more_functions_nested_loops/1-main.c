@@ -13,6 +13,5 @@ int main(void)
 	_putchar(':');
 	_putchar(_isdigit(c));
 	_putchar('\n');
-	_putchar('\n');
 	return (0);
 }
