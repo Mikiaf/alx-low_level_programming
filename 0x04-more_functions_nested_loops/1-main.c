@@ -8,10 +8,11 @@ int main(void)
 {
 	char c;
 
-	c = 'a';
+	c = '0';
 	_putchar(c);
 	_putchar(':');
 	_putchar(_isdigit(c));
+	_putchar('\n');
 	_putchar('\n');
 	return (0);
 }
