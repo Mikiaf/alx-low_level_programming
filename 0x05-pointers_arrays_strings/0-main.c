@@ -9,7 +9,7 @@ int main(void)
 {
 	char *str;
 
-	str = "i do not";
-	_puts(str);
+	str = "I do not fear computers";
+	print_rev(str);
 	return (0);
 }	
