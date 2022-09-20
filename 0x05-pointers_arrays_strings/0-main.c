@@ -7,9 +7,11 @@
 */
 int main(void)
 {
-	char *str;
+	int array[5];
 
-	str = "0123456789";
-	puts2(str);
+	array[0] = 98;
+	array[1] = 402;
+	array[2] = -198;
+	print_array(array, 5);
 	return (0);
 }	
