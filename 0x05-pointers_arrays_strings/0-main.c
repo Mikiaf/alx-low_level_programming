@@ -7,11 +7,9 @@
 */
 int main(void)
 {
-	char *s;
-	int len;
+	char *str;
 
-	s = "my first strlen";
-	len = _strlen(s);
-	printf("%d\n", len);
+	str = "i do not";
+	_puts(str);
 	return (0);
 }	
