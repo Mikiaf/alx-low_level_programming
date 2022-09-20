@@ -16,5 +16,4 @@ void puts2(char *str)
 		i++;
 	}
 	_putchar(10);
-	_putchar(10);
 }
