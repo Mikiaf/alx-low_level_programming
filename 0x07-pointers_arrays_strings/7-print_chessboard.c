@@ -16,7 +16,7 @@ void print_chessboard(char (*a)[8])
 	int m;
 	char s;
 
-	m = sizeof(*a) / sizeof(a[0]) - 1;
+	m = sizeof(*a) / sizeof(*a[0]) - 1;
 	for (i = 0; i <= m; i++)
 	{
 		for (j = 0; j <= 7; j++)
