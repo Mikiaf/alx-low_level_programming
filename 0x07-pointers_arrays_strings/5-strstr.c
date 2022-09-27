@@ -8,8 +8,8 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i;
-	unsigned int j;
+	unsigned int i = 0;
+	unsigned int j = 0;
 
 	while (haystack[i])
 	{
@@ -30,5 +30,3 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
-
-
