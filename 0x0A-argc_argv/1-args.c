@@ -2,14 +2,14 @@
 #include <stdio.h>
 /**
  * main- print the number arguments passed in
- * @cout: is int
- * @becout: is string
+ * @argc: is int
+ * @argv: is string
  *
  * Return:0
  */
-int main(int cout, char *becout[])
+int main(int argc, char *argv[])
 {
-	(void)becout;
-	printf("%d\n", cout);
+	(void)argv;
+	printf("%d\n", argc);
 	return (0);
 }
