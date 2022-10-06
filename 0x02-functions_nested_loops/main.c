@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - calls functions
  *
@@ -6,6 +7,8 @@
  */
 int main(void)
 {
-	print_alphabet();
+	int a;
+	a = add(5, 2);
+	printf("%d", a);
 	return (0);
 }
