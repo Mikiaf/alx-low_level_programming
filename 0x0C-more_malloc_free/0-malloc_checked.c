@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * malloc_checked - create malloc
- * @b - int
+ * @b: int
  *
  * Return:0
  */
