@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * main - check the code
 *
@@ -8,10 +9,7 @@ int main(void)
 {
 	char c;
 
-	c = '0';
-	_putchar(c);
-	_putchar(':');
-	_putchar(_isdigit(c));
-	_putchar('\n');
+	c = 'a';
+	printf("%d\n", _isdigit(c));
 	return (0);
 }
