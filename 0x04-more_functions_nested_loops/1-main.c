@@ -8,8 +8,12 @@
 int main(void)
 {
 	char c;
+	char a;
 
 	c = 'a';
 	printf("%d\n", _isdigit(c));
+	a = '0';
+	printf("%d\n", _isdigit(a));
+
 	return (0);
 }
