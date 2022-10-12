@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints ogcodes
+ * main- prints ogcodes
  * @argc:int
- * @grgv:arrary
+ * @argv:arrary
+ * bytes:int
+ * i:int
+ * arr:string
  *
  * Return:0
  */
@@ -31,7 +34,7 @@ int main(int argc, char *argv[])
 			printf("%02hhx\n", arr[i]);
 			break;
 		}
-		printf("%02hhx\n",arr[i]);
+		printf("%02hhx\n", arr[i]);
 	}
 	return (0);
 }
