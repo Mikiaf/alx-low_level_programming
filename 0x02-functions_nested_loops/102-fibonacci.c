@@ -12,7 +12,6 @@ int main(void)
 {
 	int i;
 	int j = 2;
-	int sum;
 
 	printf("1, 2,");
 	for (i = 1; i <=50; i++)
