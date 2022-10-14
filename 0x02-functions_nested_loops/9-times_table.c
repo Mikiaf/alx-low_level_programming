@@ -20,17 +20,32 @@ void times_table(void)
 			sum = (j * i);
 			if (sum < 10)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(sum + '0');
+				if ((sum == 0 && j == 9) || (sum == 9 && j == 9))
+				{
+					_putchar(sum + '0');
+				}
+				else
+				{
+					_putchar(sum + '0');
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 			else
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(sum / 10 + '0');
-				_putchar(sum % 10 + '0');
+				if (i * 9 == sum)
+				{
+					_putchar(sum / 10 + '0');
+					_putchar(sum % 10 + '0');
+				}
+				else
+				{
+					_putchar(sum / 10 + '0');
+					_putchar(sum % 10 + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
