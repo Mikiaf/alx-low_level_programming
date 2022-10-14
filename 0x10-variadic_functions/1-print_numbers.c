@@ -1,15 +1,15 @@
-#include "variadic_functions.h" 
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_number - print numbers
+ * print_numbers - print numbers
  * @separator: string
  * @n: numbers of arg
  * @...:variable
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list num;
+	va_list nums;
 	unsigned int index;
 
 	va_start(num, n);
