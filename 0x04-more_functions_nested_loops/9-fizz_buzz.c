@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- *main - print Fizz-Buzz
+ *fizz_buzz - print Fizz-Buzz
  * i: int
  *
  * Return:0
  */
-int main(void)
+int fizz_buzz(void)
 {
 	int i;
 
-	for (i = 1; i < 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
