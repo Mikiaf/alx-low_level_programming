@@ -5,6 +5,7 @@
  * print_strings - print string
  * @separator: separate string
  * @n: number of args
+ *
  * Return:0
  */
 void print_strings(const char *separator, const unsigned int n, ...)
