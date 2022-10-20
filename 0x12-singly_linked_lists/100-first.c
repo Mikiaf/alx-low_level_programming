@@ -4,7 +4,7 @@
  *
  * Return:null
  */
-void __attribute__ i((constructor)) text()
+void __attribute__ ((constructor)) text()
 {
 	printf("You're beat! and yet, you must allow");
 	printf(",\nI bore my house upon my back!\n");
