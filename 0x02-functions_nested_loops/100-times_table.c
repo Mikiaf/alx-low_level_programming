@@ -16,6 +16,10 @@ void print_times_table(int n)
 		for(j = 0; j <= n; j++)
 		{
 			sum = j * i;
+			if(sum == 0 && j == 0)
+				{
+					_putchar(sum +'0');
+				}
 			if(sum > 9)
 			{
 				if( j == n)
