@@ -20,7 +20,7 @@ void print_times_table(int n)
 				{
 					_putchar(sum +'0');
 				}
-			if(sum > 9)
+			else if(sum > 9)
 			{
 				if( j == n)
 				{
