@@ -7,7 +7,7 @@
 */
 void print_times_table(int n)
 {
-	int i, j, sum;
+	int i, j, sum, num;
 
 	if (n < 0 || n > 98)
 		_putchar(' ');
