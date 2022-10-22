@@ -22,29 +22,32 @@ void times_table(void)
 			{
 				if ((sum == 0 && j == 9) || (sum == 9 && j == 9))
 				{
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(sum + '0');
 				}
 				else
 				{
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(sum + '0');
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
 				}
 			}
 			else
 			{
 				if (i * 9 == sum)
 				{
+					_putchar(' ');
 					_putchar(sum / 10 + '0');
 					_putchar(sum % 10 + '0');
 				}
 				else
 				{
+					_putchar(' ');
 					_putchar(sum / 10 + '0');
 					_putchar(sum % 10 + '0');
 					_putchar(',');
-					_putchar(' ');
 				}
 			}
 		}
