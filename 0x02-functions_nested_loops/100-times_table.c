@@ -19,6 +19,7 @@ void print_times_table(int n)
 			if(sum == 0 && j == 0)
 				{
 					_putchar(sum +'0');
+					_putchar(',');
 				}
 			else if(sum > 9)
 			{
