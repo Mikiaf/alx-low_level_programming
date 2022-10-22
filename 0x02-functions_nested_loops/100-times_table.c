@@ -21,11 +21,13 @@ void print_times_table(int n)
 				if( j == n)
 				{
 					_putchar(' ');
+					_putchar(' ');
 					_putchar(sum / 10 + '0');
 					_putchar(sum % 10 + '0');
 				}
 				else
 				{
+					_putchar(' ');
 					_putchar(' ');
 					_putchar(sum / 10 + '0');
 					_putchar(sum % 10 + '0');
@@ -38,10 +40,12 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar(' ');
+					_putchar(' ');
 					_putchar(sum + '0');
 				}
 				else
 				{
+					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(sum + '0');
